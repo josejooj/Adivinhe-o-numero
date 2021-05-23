@@ -1,0 +1,56 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*.entrada {
+    background-color:black;
+    padding: 6px 20px;
+    inline-size: 450px;
+    border-radius: 10px;
+    border: 1px solid black;
+    border-color: black
+}*/
+
+body {
+    background-color: #FF0000;
+}
+
+.gamearea {
+    padding: 20px 20px;
+    width: 800px;
+    height: 300px;
+    background-color: white;
+    border: 20px solid green;
+    border-color: black;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: bottom;
+    min-height: 10em;
+    top: 50%;
+    transform: translate(0, 40%);
+}
+
+#titulo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    font-size: 30px;
+}
+
+description {
+    font-size: 20px;
+}
+
+#envioPalpite {
+    background-color:greenyellow;
+    border-color: blue;
+    border-radius: 15px;
+    padding: 6px 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+wrong {
+    color: burlywood;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Jogo: Advinhe o número</title>
+    <link rel="stylesheet" href="style.css">
+    <script>setInterval(() => document.body.style.backgroundColor = "#" + Math.floor(Math.random()*16777215).toString(16), 1000)</script>
+</head>
+
+<body>
+<div class='gamearea' id='gamearea'>
+    <div class="top">
+        <p id='titulo'>Escolha um número de 1 a 100!</p>
+        <description>Como funciona: Nós selecionamos 1 número aleatório entre 1 e 100, e tudo o que você terá de fazer é tentar adivinhar esse número. <br>Você terá 10 tentativas. Que os jogos comecem.</description>
+        <div class="entrada">
+            <label for="authorresposta"><br>Digite seu palpite:</label>
+            <input type="text" id="campoPalpite">
+            <input type="submit" class = "envioPalpite" id="envioPalpite" value="Enviar palpite">
+        </div>
+    </div>
+    <div class="result">
+        <p id="resultNumbers"></p>
+        <p id="trys"></p>
+        <p id="resultState"></p>
+        <p id="resultLocale"></p>
+    </div>
+</div>
+    <script src=" ./script.js "></script>
+</body>
+
+</html>
