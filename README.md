@@ -1,3 +1,3 @@
-﻿# advinheonumero
+﻿# 🔮 > Adivinhe o número
 
-Jogo criado apenas com o propósito de ganho de conhecimento em HTML e CSS básico, tentei fazer com o mínimo de código copiado possível, então pode ser que algo esteja errado, principalmente a parte de HTML e CSS, que não tenho experiência prévia, esse é minha primeira vez usando essas 2 ferramentas.
+Esse é um jogo básico feito com **JavaScript** + **HTML** + **CSS**, sem muita complexidade, o jogo consiste em um sistema interno (_Sem uso de API_) escolher um número aleatório, com uso da função `Math.Random()`, em um alcance entre 1 e 100, feito isso, você tem 6 chances para adivinhar o número sorteado
